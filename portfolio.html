@@ -18,35 +18,36 @@
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
+		<link rel="stylesheet" href="/./scss/main.scss" />
 		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
 		<!-- header section -->
 		<header class="header">
-			<div class="container header-container">
-				<a class="logo link" href="index.html" lang="en">
+			<div class="container header__container">
+				<a class="logo header__logo link" href="index.html" lang="en">
 					Web
-					<span class="logo-text">Studio</span>
+					<span class="logo__text--black">Studio</span>
 				</a>
 				<nav class="nav">
-					<ul class="nav-list list">
-						<li><a class="nav-link link" href="./index.html">Студия</a></li>
-						<li><a class="nav-link link current" href="./portfolio.html">Портфолио</a></li>
-						<li><a class="nav-link link" href="">Контакты</a></li>
+					<ul class="nav__list list">
+						<li><a class="nav__link link" href="./index.html">Студия</a></li>
+						<li><a class="nav__link link current" href="./portfolio.html">Портфолио</a></li>
+						<li><a class="nav__link link" href="">Контакты</a></li>
 					</ul>
 				</nav>
-				<ul class="contacts-list list">
+				<ul class="header__list list">
 					<li>
-						<a class="link header-contacts" href="mailto:info@devstudio.com">
-							<svg class="contacts-icon" width="16" height="12">
+						<a class="link header__contacts" href="mailto:info@devstudio.com">
+							<svg class="header__icon" width="16" height="12">
 								<use href="./images/icons/icons.svg#mail"></use>
 							</svg>
 							info@devstudio.com
 						</a>
 					</li>
 					<li>
-						<a class="link header-contacts" href="tel:+380961111111">
-							<svg class="contacts-icon" width="10" height="16">
+						<a class="link header__contacts" href="tel:+380961111111">
+							<svg class="header__icon" width="10" height="16">
 								<use href="./images/icons/icons.svg#smartphone"></use>
 							</svg>
 							+38 096 111 11 11
@@ -57,173 +58,173 @@
 		</header>
 		<!-- main section -->
 		<main class="maim">
-			<section class="section-portfolio section">
-				<div class="portfolio-container container">
-					<h1 class="portfolio-title visually-hidden">Портфолио</h1>
-					<ul class="list filter">
-						<li><button type="button" class="filter-btn all-btn current-btn">Все</button></li>
-						<li><button type="button" class="filter-btn web-btn">Веб-сайты</button></li>
-						<li><button type="button" class="filter-btn app-btn">Приложения</button></li>
-						<li><button type="button" class="filter-btn decing-btn">Дизайн</button></li>
-						<li><button type="button" class="filter-btn marketing-btn">Маркетинг</button></li>
+			<section class="portfolio section">
+				<div class="portfolio__container container">
+					<h1 class="portfolio__title--hidden visually-hidden">Портфолио</h1>
+					<ul class="portfolio__filter list">
+						<li><button type="button" class="portfolio__btn current-btn">Все</button></li>
+						<li><button type="button" class="portfolio__btn">Веб-сайты</button></li>
+						<li><button type="button" class="portfolio__btn">Приложения</button></li>
+						<li><button type="button" class="portfolio__btn">Дизайн</button></li>
+						<li><button type="button" class="portfolio__btn">Маркетинг</button></li>
 					</ul>
 					<!-- portfolio list -->
-					<ul class="portfolio-list list">
-						<li class="portfolio-item">
-							<a class="portfolio-link link" href="">
-								<div class="portfilio-card">
+					<ul class="portfolio__list list">
+						<li class="portfolio__item">
+							<a class="portfolio__link link" href="">
+								<div class="portfilio__card">
 									<img src="./images/portfolio/img1.jpg" alt="Сайт Технокряк" width="370" height="294" />
-									<div class="overlay">
-										<p class="overlay-text">
+									<div class="portfilio__overlay">
+										<p class="portfilio__description">
 											Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
 											позволит посетителю получить исчерпывающие сведения о компании или частном лице.
 										</p>
 									</div>
 								</div>
-								<div class="portrolio-wrapper">
-									<h2 class="portfolio-title">Технокряк</h2>
-									<p class="portfolio-text">Веб-сайт</p>
+								<div class="portrolio__wrapper">
+									<h2 class="portfolio__subtitle">Технокряк</h2>
+									<p class="portfolio__text">Веб-сайт</p>
 								</div>
 							</a>
 						</li>
-						<li class="portfolio-item">
-							<a class="portfolio-link link" href="">
-								<div class="portfilio-card">
+						<li class="portfolio__item">
+							<a class="portfolio__link link" href="">
+								<div class="portfilio__card">
 									<img src="./images/portfolio/img2.jpg" alt="Дизайн постера" width="370" height="294" />
-									<div class="overlay">
-										<p class="overlay-text">
+									<div class="portfilio__overlay">
+										<p class="portfilio__description">
 											Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
 											позволит посетителю получить исчерпывающие сведения о компании или частном лице.
 										</p>
 									</div>
 								</div>
-								<div class="portrolio-wrapper">
-									<h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
-									<p class="portfolio-text">Дизайн</p>
+								<div class="portrolio__wrapper">
+									<h2 class="portfolio__subtitle">Постер New Orlean vs Golden Star</h2>
+									<p class="portfolio__text">Дизайн</p>
 								</div>
 							</a>
 						</li>
-						<li class="portfolio-item">
-							<a class="portfolio-link link" href="">
-								<div class="portfilio-card">
+						<li class="portfolio__item">
+							<a class="portfolio__link link" href="">
+								<div class="portfilio__card">
 									<img src="./images/portfolio/img3.jpg" alt="Приложение ресторана" width="370" height="294" />
-									<div class="overlay">
-										<p class="overlay-text">
+									<div class="portfilio__overlay">
+										<p class="portfilio__description">
 											Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
 											позволит посетителю получить исчерпывающие сведения о компании или частном лице.
 										</p>
 									</div>
 								</div>
-								<div class="portrolio-wrapper">
-									<h2 class="portfolio-title">Ресторан Seafood</h2>
-									<p class="portfolio-text">Приложение</p>
+								<div class="portrolio__wrapper">
+									<h2 class="portfolio__subtitle">Ресторан Seafood</h2>
+									<p class="portfolio__text">Приложение</p>
 								</div>
 							</a>
 						</li>
-						<li class="portfolio-item">
-							<a class="portfolio-link link" href="">
-								<div class="portfilio-card">
+						<li class="portfolio__item">
+							<a class="portfolio__link link" href="">
+								<div class="portfilio__card">
 									<img src="./images/portfolio/img4.jpg" alt="Маркетинг проекта" width="370" height="294" />
-									<div class="overlay">
-										<p class="overlay-text">
+									<div class="portfilio__overlay">
+										<p class="portfilio__description">
 											Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
 											позволит посетителю получить исчерпывающие сведения о компании или частном лице.
 										</p>
 									</div>
 								</div>
-								<div class="portrolio-wrapper">
-									<h2 class="portfolio-title">Проект Prime</h2>
-									<p class="portfolio-text">Маркетинг</p>
+								<div class="portrolio__wrapper">
+									<h2 class="portfolio__subtitle">Проект Prime</h2>
+									<p class="portfolio__text">Маркетинг</p>
 								</div>
 							</a>
 						</li>
-						<li class="portfolio-item">
-							<a class="portfolio-link link" href="">
-								<div class="portfilio-card">
+						<li class="portfolio__item">
+							<a class="portfolio__link link" href="">
+								<div class="portfilio__card">
 									<img src="./images/portfolio/img5.jpg" alt="Дизайн приложения" width="370" height="294" />
-									<div class="overlay">
-										<p class="overlay-text">
+									<div class="portfilio__overlay">
+										<p class="portfilio__description">
 											Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
 											позволит посетителю получить исчерпывающие сведения о компании или частном лице.
 										</p>
 									</div>
 								</div>
-								<div class="portrolio-wrapper">
-									<h2 class="portfolio-title">Проект Boxes</h2>
-									<p class="portfolio-text">Приложение</p>
+								<div class="portrolio__wrapper">
+									<h2 class="portfolio__subtitle">Проект Boxes</h2>
+									<p class="portfolio__text">Приложение</p>
 								</div>
 							</a>
 						</li>
-						<li class="portfolio-item">
-							<a class="portfolio-link link" href="">
-								<div class="portfilio-card">
+						<li class="portfolio__item">
+							<a class="portfolio__link link" href="">
+								<div class="portfilio__card">
 									<img
 										src="./images/portfolio/img6.jpg"
 										alt="Сайт Inspiration has no Borders"
 										width="370"
 										height="294"
 									/>
-									<div class="overlay">
-										<p class="overlay-text">
+									<div class="portfilio__overlay">
+										<p class="portfilio__description">
 											Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
 											позволит посетителю получить исчерпывающие сведения о компании или частном лице.
 										</p>
 									</div>
 								</div>
-								<div class="portrolio-wrapper">
-									<h2 class="portfolio-title">Inspiration has no Borders</h2>
-									<p class="portfolio-text">Веб-сайт</p>
+								<div class="portrolio__wrapper">
+									<h2 class="portfolio__subtitle">Inspiration has no Borders</h2>
+									<p class="portfolio__text">Веб-сайт</p>
 								</div>
 							</a>
 						</li>
-						<li class="portfolio-item">
-							<a class="portfolio-link link" href="">
-								<div class="portfilio-card">
+						<li class="portfolio__item">
+							<a class="portfolio__link link" href="">
+								<div class="portfilio__card">
 									<img src="./images/portfolio/img7.jpg" alt="Дизайн издания" width="370" height="294" />
-									<div class="overlay">
-										<p class="overlay-text">
+									<div class="portfilio__overlay">
+										<p class="portfilio__description">
 											Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
 											позволит посетителю получить исчерпывающие сведения о компании или частном лице.
 										</p>
 									</div>
 								</div>
-								<div class="portrolio-wrapper">
-									<h2 class="portfolio-title">Издание Limited Edition</h2>
-									<p class="portfolio-text">Дизайн</p>
+								<div class="portrolio__wrapper">
+									<h2 class="portfolio__subtitle">Издание Limited Edition</h2>
+									<p class="portfolio__text">Дизайн</p>
 								</div>
 							</a>
 						</li>
-						<li class="portfolio-item">
-							<a class="portfolio-link link" href="">
-								<div class="portfilio-card">
+						<li class="portfolio__item">
+							<a class="portfolio__link link" href="">
+								<div class="portfilio__card">
 									<img src="./images/portfolio/img8.jpg" alt="Маркетинг проекта" width="370" height="294" />
-									<div class="overlay">
-										<p class="overlay-text">
+									<div class="portfilio__overlay">
+										<p class="portfilio__description">
 											Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
 											позволит посетителю получить исчерпывающие сведения о компании или частном лице.
 										</p>
 									</div>
 								</div>
-								<div class="portrolio-wrapper">
-									<h2 class="portfolio-title">Проект LAB</h2>
-									<p class="portfolio-text">Маркетинг</p>
+								<div class="portrolio__wrapper">
+									<h2 class="portfolio__subtitle">Проект LAB</h2>
+									<p class="portfolio__text">Маркетинг</p>
 								</div>
 							</a>
 						</li>
-						<li class="portfolio-item">
-							<a class="portfolio-link link" href="">
-								<div class="portfilio-card">
+						<li class="portfolio__item">
+							<a class="portfolio__link link" href="">
+								<div class="portfilio__card">
 									<img src="./images/portfolio/img9.jpg" alt="Приложение" width="370" height="294" />
-									<div class="overlay">
-										<p class="overlay-text">
+									<div class="portfilio__overlay">
+										<p class="portfilio__description">
 											Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
 											позволит посетителю получить исчерпывающие сведения о компании или частном лице.
 										</p>
 									</div>
 								</div>
-								<div class="portrolio-wrapper">
-									<h2 class="portfolio-title">Growing Business</h2>
-									<p class="portfolio-text">Приложение</p>
+								<div class="portrolio__wrapper">
+									<h2 class="portfolio__subtitle">Growing Business</h2>
+									<p class="portfolio__text">Приложение</p>
 								</div>
 							</a>
 						</li>
@@ -233,17 +234,17 @@
 		</main>
 		<!-- footer section -->
 		<footer class="footer">
-			<div class="footer-container container">
-				<div class="footer-address">
-					<a class="footer-logo logo link" href="index.html" lang="en">
+			<div class="footer__container container">
+				<div class="footer__links">
+					<a class="footer__logo--position logo link" href="index.html" lang="en">
 						Web
-						<span class="logo-text-footer">Studio</span>
+						<span class="logo__text--white">Studio</span>
 					</a>
-					<address class="address">
+					<address class="footer__address">
 						<ul class="address-list list">
-							<li class="address-link">
+							<li class="footer__link">
 								<a
-									class="link map-link"
+									class="link footer__geolocation"
 									href="https://goo.gl/maps/qAN8Z4eKV2x6crum7"
 									target="_blank"
 									rel="noopener noreferrer"
@@ -251,67 +252,83 @@
 									г. Киев, пр-т Леси Украинки, 26
 								</a>
 							</li>
-							<li class="address-link">
-								<a class="link contacts-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
+							<li class="footer__link">
+								<a class="link footer__contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
 							</li>
-							<li class="address-link">
-								<a class="link contacts-footer" href="tel:+380961111111">+38 096 111 11 11</a>
+							<li class="footer__link">
+								<a class="link footer__contacts" href="tel:+380961111111">+38 096 111 11 11</a>
 							</li>
 						</ul>
 					</address>
 				</div>
-				<div class="footer-socials">
-					<h2 class="socials-title title">присоединяйтесь</h2>
-					<ul class="footer-social-list list">
-						<li class="footer-social-item item">
-							<a class="footer-socia-link" href="" target="_blank" rel="noopener noreferrer" aria-label="instagram">
-								<svg class="footer-social-icon" width="20" height="20">
+				<div class="footer__social-elem">
+					<h2 class="footer__title title">присоединяйтесь</h2>
+					<ul class="footer__social social list">
+						<li class="social__item item">
+							<a
+								class="social__link social__link--gray-bgr link"
+								href=""
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="instagram"
+							>
+								<svg class="social__icon--white" width="20" height="20">
 									<use href="./images/icons/icons.svg#instagram"></use>
 								</svg>
 							</a>
 						</li>
-						<li class="footer-social-item item">
-							<a class="footer-socia-link" href="" target="_blank" rel="noopener noreferrer" aria-label="twitter">
-								<svg class="footer-social-icon" width="20" height="20">
+						<li class="social__item item">
+							<a
+								class="social__link social__link--gray-bgr link"
+								href=""
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="twitter"
+							>
+								<svg class="social__icon--white" width="20" height="20">
 									<use href="./images/icons/icons.svg#twitter"></use>
 								</svg>
 							</a>
 						</li>
-						<li class="footer-social-item item">
-							<a class="footer-socia-link" href="" target="_blank" rel="noopener noreferrer" aria-label="facebook">
-								<svg class="footer-social-icon" width="20" height="20">
+						<li class="social__item item">
+							<a
+								class="social__link social__link--gray-bgr link"
+								href=""
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="facebook"
+							>
+								<svg class="social__icon--white" width="20" height="20">
 									<use href="./images/icons/icons.svg#facebook"></use>
 								</svg>
 							</a>
 						</li>
-						<li class="footer-social-item item">
-							<a class="footer-socia-link" href="" target="_blank" rel="noopener noreferrer" aria-label="linkedin">
-								<svg class="footer-social-icon" width="20" height="20">
+						<li class="social__item item">
+							<a
+								class="social__link social__link--gray-bgr link"
+								href=""
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="linkedin"
+							>
+								<svg class="social__icon--white" width="20" height="20">
 									<use href="./images/icons/icons.svg#linkedin"></use>
 								</svg>
 							</a>
 						</li>
 					</ul>
 				</div>
-				<div class="footer-subscribe">
-					<h2 class="footer-subscribe-title title">Подпишитесь на рассылку</h2>
-					<div class="footer-subscribe-box">
-						<label class="footer-form" for="footer-user-mail">
-							<input
-								class="footer-form-input"
-								type="email"
-								id="footer-user-mail"
-								name="footerusermail"
-								placeholder="E-mail"
-							/>
-						</label>
-						<button class="footer-form-btn" type="submit">
+				<div class="footer__subscribe">
+					<h2 class="footer__title title">Подпишитесь на рассылку</h2>
+					<form class="footer__form">
+						<input class="footer__input" type="email" name="footerusermail" placeholder="E-mail" />
+						<button class="footer__btn" type="submit">
 							Подписаться
-							<svg class="footer-btn-icon" width="24" height="24">
+							<svg class="footer__btn-icon" width="24" height="24">
 								<use href="./images/icons/icons.svg#icon-send"></use>
 							</svg>
 						</button>
-					</div>
+					</form>
 				</div>
 			</div>
 		</footer>
