@@ -1,6 +1,6 @@
 /* :root {
 	/* colors */
-	--black-text-color: #212121;
+	/* --black-text-color: #212121;
 	--gray-text-color: #757575;
 	--blue-text-color: #2196f3;
 	--selection-btn-color: #188ce8;
@@ -11,10 +11,10 @@
 	--footer-text-color: rgba(255, 255, 255, 0.6);
 	--work-bgr-color: rgba(47, 48, 58, 0.8);
 	--social-link-bgr-gray-color: rgba(255, 255, 255, 0.1);
-	--modal-message-placeholder-color: rgba(117, 117, 117, 0.5);
+	--modal-message-placeholder-color: rgba(117, 117, 117, 0.5); */
 	/* fonts */
-	--main-font: "Roboto", sans-serif;
-	--logo-font: "Raleway", sans-serif;} */
+	/* --main-font: "Roboto", sans-serif;
+	--logo-font: "Raleway", sans-serif;} */ */
 
 /* body {
 	background-color: var(--white-bgr-text-color);
